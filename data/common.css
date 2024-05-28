@@ -1,0 +1,17 @@
+section { margin-top: 1em; }
+td tt { font-size: 75%; }
+
+h1 img {
+    margin-top: -3px;
+    margin-bottom: 3px;
+    margin-right: 5px;
+}
+p.nopara {
+    margin-bottom: 0;
+}
+
+a.item { font-weight: bold; text-decoration: none; }
+a.item:hover { text-decoration: underline; }
+
+a.npc { font-style: italic; text-decoration: none; }
+a.npc:hover { text-decoration: underline; }

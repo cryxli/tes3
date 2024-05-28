@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="../data/common.css" rel="stylesheet">
+    <title>Morrowind - Skill: Alchemy</title>
+</head>
+<body class="container">
+<h1><img src="MW-icon-skill-Alchemy.jpg" alt=""/>Alchemy</h1>
+<back></back>
+<p class="nopara"><b>Governing Attribute:</b> Intelligence</p>
+<p><b>Specialization:</b> Magic</p>
+
+<p>Alchemy allows you to identify magical properties in ingredients and create potions. A higher Alchemy skill allows you to see more effects of ingredients when you hover over them with the cursor. Every 15 levels you see one more effect for up to four.</p>
+
+<p>Eating ingredients and brewing potions trains the skill.</p>
+
+<p><a href="../mages/index.html">Mages Guild</a> and <a href="tribunal/index.html">Tribunal Temple</a> state Alchemy as one of their preferred skills.</p>
+
+<section>
+<h2>Skill Books</h2>
+<ul>
+    <li><item id>A Game at Dinner</item></li>
+    <li><item id>The Cake and the Diamond</item></li>
+    <li><item id>Song of the Alchemists</item></li>
+    <li><item id>36 Lessons of Vivec, Sermon 2</item></li>
+    <li><item id>36 Lessons of Vivec, Sermon 18</item></li>
+    <li><item id>The Song of Uncle Sweetshare</item> (Bloodmoon)</li>
+</ul>
+</section>
+
+<section>
+<h2>Skill Trainers</h2>
+<table class="table">
+<tr>
+    <th>Level</th>
+    <th>Trainer</th>
+    <th>Location</th>
+    <th colspan="2">Other Skills</th>
+</tr><tr>
+    <td>100</td>
+    <td><npc>Abelle Chriditte</npc></td>
+    <td><loc>Valenvaryon, Propylon Chamber</loc></td>
+    <td><a href="conjuration.html">Conjuration</a> (81)</td>
+    <td><a href="mysticism.html">Mysticism</a> (81)</td>
+</tr><tr>
+    <td>50</td>
+    <td><npc>Anarenen</npc></td>
+    <td><loc>Ald-ruhn, Guild of Mages</loc></td>
+    <td><a href="enchant.html">Enchant</a> (50)</td>
+    <td><a href="conjuration.html">Conjuration</a> (50)</td>
+</tr><tr>
+    <td>49</td>
+    <td><npc>Galbedir</npc></td>
+    <td><loc>Balmora, Guild of Mages</loc></td>
+    <td><a href="destruction.html">Destruction</a> (48)</td>
+    <td><a href="unarmored.html">Unarmored</a> (48)</td>
+</tr><tr>
+    <td>48</td>
+    <td><npc>Ajira</npc></td>
+    <td><loc>Balmora, Guild of Mages</loc></td>
+    <td><a href="enchant.html">Enchant</a> (48)</td>
+    <td><a href="conjuration.html">Conjuration</a> (48)</td>
+</tr><tr>
+    <td>42</td>
+    <td><npc>Tongue-Toad</npc></td>
+    <td><loc>Ald-ruhn, The Rat In The Pot</loc></td>
+    <td><a href="athletics.html">Athletics</a> (52)</td>
+    <td><a href="unarmored.html">Unarmored</a> (42)</td>
+</tr><tr>
+    <td>41</td>
+    <td><npc>Phane Rielle</npc></td>
+    <td><loc>Balmora, South Wall Cornerclub</loc></td>
+    <td><a href="mercantile.html">Mercantile</a> (44)</td>
+    <td><a href="speechcraft.html">Speechcraft</a> (44)</td>
+</tr>
+</table>
+</section>
+
+<section>
+<h2>Brewing Tools</h2>
+<p>For brewing you need at least one Mortar and Pestle. The game will select the best combination of tools from your inventory.</p>
+<section>
+<h3>Mortar and Pestle</h3>
+<p>The quality of the Mortar and Pestle directly affects the quality of the potion produced.</p>
+<table class="table">
+<tr>
+    <th>Item</th>
+    <th>Weight</th>
+    <th>Cost</th>
+    <th>Multilier</th>
+</tr><tr>
+    <td><item id>apparatus_a_mortar_01</item></td>
+    <td>5</td>
+    <td>100</td>
+    <td>0.5</td>
+</tr><tr>
+    <td><item id>apparatus_j_mortar_01</item></td>
+    <td>4</td>
+    <td>400</td>
+    <td>1</td>
+</tr><tr>
+    <td><item id>apparatus_m_mortar_01</item></td>
+    <td>3</td>
+    <td>2400</td>
+    <td>1.2</td>
+</tr><tr>
+    <td><item id>apparatus_g_mortar_01</item></td>
+    <td>2</td>
+    <td>4000</td>
+    <td>1.5</td>
+</tr><tr>
+    <td><item id>apparatus_sm_mortar_01</item></td>
+    <td>1</td>
+    <td>6000</td>
+    <td>2</td>
+</tr>
+</table>
+</section>
+<section>
+<h3>Alembic</h3>
+<p>Reduces the strength and duration of all negative effects. If the ingredients do not have any negative effects, then this apparatus will not be used.</p>
+<table class="table">
+<tr>
+    <th>Item</th>
+    <th>Weight</th>
+    <th>Cost</th>
+    <th>Multilier</th>
+</tr><tr>
+    <td><item id>apparatus_a_alembic_01</item></td>
+    <td>10</td>
+    <td>50</td>
+    <td>0.5</td>
+</tr><tr>
+    <td><item id>apparatus_j_alembic_01</item></td>
+    <td>7</td>
+    <td>200</td>
+    <td>1</td>
+</tr><tr>
+    <td><item id>apparatus_m_alembic_01</item></td>
+    <td>5</td>
+    <td>1200</td>
+    <td>1.2</td>
+</tr><tr>
+    <td><item id>apparatus_g_alembic_01</item></td>
+    <td>3</td>
+    <td>4000</td>
+    <td>1.5</td>
+</tr><tr>
+    <td><item id>apparatus_sm_alembic_01</item></td>
+    <td>3</td>
+    <td>1600</td>
+    <td>2</td>
+</tr>
+</table>
+</section>
+<section>
+<h3>Calcinator</h3>
+<p>Increases the strength and duration of both positive and negative effects.</p>
+<table class="table">
+<tr>
+    <th>Item</th>
+    <th>Weight</th>
+    <th>Cost</th>
+    <th>Multilier</th>
+</tr><tr>
+    <td><item id>apparatus_a_calcinator_01</item></td>
+    <td>25</td>
+    <td>10</td>
+    <td>0.5</td>
+</tr><tr>
+    <td><item id>apparatus_j_calcinator_01</item></td>
+    <td>18</td>
+    <td>40</td>
+    <td>1</td>
+</tr><tr>
+    <td><item id>apparatus_m_calcinator_01</item></td>
+    <td>13</td>
+    <td>240</td>
+    <td>1.2</td>
+</tr><tr>
+    <td><item id>apparatus_g_calcinator_01</item></td>
+    <td>8</td>
+    <td>4000</td>
+    <td>1.5</td>
+</tr><tr>
+    <td><item id>apparatus_sm_calcinator_01</item></td>
+    <td>6</td>
+    <td>3200</td>
+    <td>2</td>
+</tr>
+</table>
+</section>
+<section>
+<h3>Retort</h3>
+<p>Increases the strength and duration of all positive effects. If the ingredients do not have any positive effects, then this apparatus will not be used.</p>
+<table class="table">
+<tr>
+    <th>Item</th>
+    <th>Weight</th>
+    <th>Cost</th>
+    <th>Multilier</th>
+</tr><tr>
+    <td><item id>apparatus_a_retort_01</item></td>
+    <td>8</td>
+    <td>20</td>
+    <td>0.5</td>
+</tr><tr>
+    <td><item id>apparatus_j_retort_01</item></td>
+    <td>6</td>
+    <td>80</td>
+    <td>1</td>
+</tr><tr>
+    <td><item id>apparatus_m_retort_01</item></td>
+    <td>4</td>
+    <td>480</td>
+    <td>1.2</td>
+</tr><tr>
+    <td><item id>apparatus_g_retort_01</item></td>
+    <td>3</td>
+    <td>1600</td>
+    <td>1.5</td>
+</tr><tr>
+    <td><item id>apparatus_sm_retort_01</item></td>
+    <td>2</td>
+    <td>1000</td>
+    <td>2</td>
+</tr>
+</table>
+</section>
+</section>
+
+<section>
+<h2>Ingredients</h2>
+<div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+    <input type="radio" class="btn-check" name="ingred" id="ingred-by-name" autocomplete="off" checked>
+    <label class="btn btn-outline-secondary" for="ingred-by-name">by name</label>
+
+    <input type="radio" class="btn-check" name="ingred" id="ingred-by-effect" autocomplete="off">
+    <label class="btn btn-outline-secondary" for="ingred-by-effect">by effect</label>
+</div>
+<table class="table" id="ingreds"><tr><th>Loading...</th></tr></table>
+</section>
+
+<div class="mb-3">&nbsp;</div>
+<script src="https://kit.fontawesome.com/66e3a9c29f.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+<script src="../data/mw.js"></script>
+<script src="../data/items.js"></script>
+<script>
+var ingreds = [];
+var effects = [];
+// update ingreds list
+const updateIngreds = () => {
+    const byName = $('#ingred-by-name:checked').length === 1;
+    var s = '';
+    if (byName) {
+        s += '<tr><th>Item</th><th>Code</th><th colspan="4">Effects</th></tr>'
+        ingreds.forEach(i=>{
+            s += '<tr>';
+            if (!i.url) {
+                s += '<td>' + i.name + '</td>';
+            } else {
+                s += '<td><a class="item" href="' + window.mw.item.getLink(i) + '">' + i.name + '</a></td>';
+            }
+            s += '<td><tt>' + i.id + '</tt></td>';
+            const effects = i.effects||[];
+            effects.forEach(eff=>s += '<td>' + eff + '</td>');
+            s += '</tr>';
+        });
+    } else {
+        s += '<tr><th>Effect</th><th>Items</th></tr>';
+        effects.forEach(e=>{
+            s += '<tr>';
+            s += '<td>' + e.name + '</td>';
+            s += '<td>' + e.items.flatMap(i=>{
+                if (!i.url) {
+                    return i.name;
+                } else {
+                    return '<a class="item" href="' + window.mw.item.getLink(i) + '">' + i.name + '</a>';
+                }
+            }).join(', ') + '</td>';
+            s += '</tr>';
+        });
+    }
+    $('#ingreds').html('<tbody>'+s+'</tbody>');
+};
+// listen to changes in ingred list
+$('#ingred-by-name,#ingred-by-effect').click(updateIngreds);
+$(document).ready(()=>{
+    // get all ingreds
+    ingreds = items.filter(i=>(typeof i.effects) === 'object');
+    // get all effects
+    var effs = [];
+    ingreds.forEach(i=>effs=[...effs,...i.effects]);
+    // reduce list to unique effects
+    effs=[...new Set(effs)].sort();
+    // for all effects create a list of items that have said effect
+    effs.forEach(eff=> {
+        const effect = {
+            name: eff,
+            items: ingreds.filter(i=>i.effects.filter(e=>e===eff).length > 0)
+        };
+        // only display effects that have at least two ingreds
+        if (effect.items.length > 1) { effects.push(effect); }
+    });
+    // display current selected ingred list
+    updateIngreds();
+});
+</script>
+<script src="../data/npc.js"></script>
+</body>
+</html>
