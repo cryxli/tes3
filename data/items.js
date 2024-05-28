@@ -172,7 +172,20 @@ const items = [
     {name:'Amulet of Almsivi Intervention',id:'amulet of almsivi intervention',cost:21,weight:1},
     {name:'Scroll of The Fifth Barrier',id:'sc_fifthbarrier',cost:156,weight:0.2},
     {name:'Exclusive Potion of Shadow',id:'p_chameleon_e',cost:175,weight:0.25},
-
+    {name:'Scroll of Summon Flame Atronach',id:'sc_summonflameatronach',cost:211,weight:0.2},
+    {name:'Scroll of Summon Frost Atronach',id:'sc_summonfrostatronach',cost:235,weight:0.2},
+    {name:'Exclusive Potion of Fire Shield',id:'p_fire_shield_e',cost:175,weight:0.25},
+    {name:'Exclusive Frost Shield',id:'p_frost_shield_e',cost:175,weight:0.25},
+    {name:'Exclusive Lightning Shield',id:'p_lightning shield_e',cost:175,weight:0.25},
+    {name:'Exclusive Spell Absorption',id:'p_spell_absorption_e',cost:175,weight:0.25},
+    {name:'Cheap Restore Magicka',id:'p_restore_magicka_c',cost:15,weight:1},
+    {name:'Cheap Restore Health',id:'p_restore_health_c',cost:15,weight:1},
+    {name:'Soul Drinker',id:'daedric dagger_soultrap',cost:11000,weight:9},
+    {name:'Scroll of Summon Golden Saint',id:'sc_summongoldensaint',cost:520,weight:0.2},
+    {name:'Scroll of Elemental Burst:Fire',id:'sc_elementalburstfire',cost:161,weight:0.2},
+    {name:'Scroll of The Fourth Barrier',id:'sc_fourthbarrier',cost:134,weight:0.2},
+    {name:'Quality Restore Magicka',id:'p_restore_magicka_q',cost:80,weight:0.5},
+    
     {name:'Package for Caius Cosades',id:'bk_a1_1_caiuspackage',cost:0,weight:0.2},
     {name:'Dwemer puzzle box',id:'misc_dwrv_ark_cube00',cost:10,weight:5},
 

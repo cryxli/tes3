@@ -53,4 +53,9 @@ $(document).ready(() => {
 
     updateLocations();
 
+    // weak quest reward display
+    $('th:contains("Reward")').addClass('align-top');
+    const rewards = $('th:contains("Reward")').siblings('td');
+    rewards.html(rewards.html().replace(/,/g, ',<br/>'));
+
 });
