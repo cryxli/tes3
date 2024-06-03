@@ -4,21 +4,32 @@ window.mw = window.mw || {
     rootBase: null,
     dir: null,
     createId: (text) => (text||'').replace(/'/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'_'),
-    locHtml: (text) => {
+    locHtml: (text, target) => {
+        const rawTitle = target||text;
         var title = 'coc ';
-        if (text.indexOf(' ') >= 0) {
-            title += '\'\'' + text + '\'\'';
+        if (rawTitle.indexOf(' ') >= 0) {
+            title += '\'\'' + rawTitle + '\'\'';
         } else {
-            title += text;
+            title += rawTitle;
         }
-        return '<tt class="text-danger" title="' + title + '">' + text + '</tt>';
+        if (rawTitle === text) {
+            return '<tt class="text-danger" title="' + title + '">' + text + '</tt>';
+        } else {
+            return '<span class="text-with-title" title="' + title + '">' + text + '</span>';
+        }
     }
 };
 
 const updateLocations = () => {
     $('loc').each((_,elem) => {
-        const loc = $(elem).text();
-        $(elem).replaceWith(window.mw.locHtml(loc));
+        const text = $(elem).text();
+        var title;
+        if ($(elem).attr('target') !== undefined) {
+            title = $(elem).attr('target');
+        } else {
+            title = text;
+        }
+        $(elem).replaceWith(window.mw.locHtml(text, title));
     });
 };
 

@@ -54,7 +54,7 @@ const items = [
     {name:'Resin',id:'ingred_resin_01',cost:10,weight:0.1,effects:['Restore Health','Restore Speed','Burden','Resist Common Disease']},
     {name:'Roobrush',id:'ingred_roobrush_01',cost:1,weight:0.1,effects:['Drain Willpower','Fortify Agility','Drain Health','Cure Poison']},
     {name:'Ruby',id:'ingred_ruby_01',cost:200,weight:0.2,effects:['Drain Health','Feather','Restore Intelligence','Drain Agility']},
-    {name:'Saltrice',id:'ingred_saltrice_01',cost:1,weight:0.1,effects:['Restore Fatigue','Fortify Magicka','Drain Strength','Restore Health']},
+    {name:'Saltrice',id:'ingred_saltrice_01',cost:1,weight:0.1,effects:['Restore Fatigue','Fortify Magicka','Drain Strength','Restore Health'],url:true},
     {name:'Scales',id:'ingred_scales_01',cost:2,weight:0.2,effects:['Drain Personality','Water Walking','Restore Endurance','Swift Swim']},
     {name:'Scamp Skin',id:'ingred_scamp_skin_01',cost:10,weight:0.1,effects:['Drain Magicka','Cure Paralyzation','Restore Personality','Restore Strength']},
     {name:'Scathecraw',id:'ingred_scathecraw_01',cost:2,weight:0.1,effects:['Drain Strength','Cure Poison','Drain Health','Restore Willpower']},

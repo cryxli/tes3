@@ -15,3 +15,5 @@ a.item:hover { text-decoration: underline; }
 
 a.npc { font-style: italic; text-decoration: none; }
 a.npc:hover { text-decoration: underline; }
+
+.text-with-title { text-decoration: underline; cursor:help; }
