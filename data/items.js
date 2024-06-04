@@ -156,7 +156,13 @@ const items = [
     {name:'Amulet of Admonition',id:'amulet of admonition',cost:1000,weight:1},
     {name:'Second Barrier Belt',id:'second barrier belt',cost:38,weight:1},
     {name:'Surefeet',id:'common_shoes_02_surefee',cost:2,weight:3},
+    {name:"Lady's Mantle Leaves",id:'T_IngFlor_LadysMantle_01',cost:5,weight:0.1},
+    {name:'Quality Restore Magicka',id:'p_restore_magicka_q',cost:80,weight:0.5},
     {name:'Ring of Lightning Storm',id:'ring of lightning storm',cost:58,weight:1},
+    {name:'Amulet of Humbling Touch',id:'TR_m1_q_MG4Reward',cost:5,weight:1},
+    {name:'Ring of Ineptitude',id:'TR_m1_q_Ineptitude',cost:1000,weight:1},
+    {name:'Scroll of Leaguestep',id:'sc_leaguestep',cost:85,weight:0.2},
+    {name:'Scroll of The Eighth Barrier',id:'T_EnSc_Com_EighthBarrier',cost:360,weight:0.2},
 
     {name:'Ceramic Bowl',id:'misc_de_bowl_orange_green_01',cost:2,weight:3.0},
     {name:'Staff of Magnus',id:'staff_magnus_unique',cost:210000,weight:10},
@@ -185,7 +191,11 @@ const items = [
     {name:'Scroll of Elemental Burst:Fire',id:'sc_elementalburstfire',cost:161,weight:0.2},
     {name:'Scroll of The Fourth Barrier',id:'sc_fourthbarrier',cost:134,weight:0.2},
     {name:'Quality Restore Magicka',id:'p_restore_magicka_q',cost:80,weight:0.5},
-    
+    {name:'Scroll of Windform',id:'sc_windform',cost:311,weight:0.2},
+    {name:'Notes on the Court of Razors',id:'TR_m1_q_sc_FW_MG04a',cost:150,weight:0.2},
+    {name:'Report to Talver Dolmyn',id:'TR_m1_q_sc_FW_MG04b',cost:0, weight:0.1},
+    {name:'Cuirass of the Outermost Wastes',id:'T_Com_Steel_Cuirass_Outermost',cost:800,weight:30},
+
     {name:'Package for Caius Cosades',id:'bk_a1_1_caiuspackage',cost:0,weight:0.2},
     {name:'Dwemer puzzle box',id:'misc_dwrv_ark_cube00',cost:10,weight:5},
 

@@ -39,6 +39,7 @@ const npcs = [
     {name:'Edwinna Elbert',loc:'Ald-ruhn, Guild of Mages'},
     {name:"Skink-in-Tree's-Shade",loc:"Sadrith Mora, Wolverine Hall: Mage's Guild"},
     {name:'Trebonius Artorius',loc:'Vivec, Guild of Mages'},
+    {name:'Banvira Auctoria',loc:'Firewatch, Guild of Mages'},
     // Main Quest
     {name:'Caius Cosades',loc:"Balmora, Caius Cosades' House"},
 ];
