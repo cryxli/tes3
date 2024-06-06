@@ -195,6 +195,8 @@ const items = [
     {name:'Notes on the Court of Razors',id:'TR_m1_q_sc_FW_MG04a',cost:150,weight:0.2},
     {name:'Report to Talver Dolmyn',id:'TR_m1_q_sc_FW_MG04b',cost:0, weight:0.1},
     {name:'Cuirass of the Outermost Wastes',id:'T_Com_Steel_Cuirass_Outermost',cost:800,weight:30},
+    {name:'Geth Sigil Amulet of Entry',id:'T_Dae_Sigil_Amulet_Geth_Entry',cost:900,weight:1},
+    {name:'Scroll of Forbidden Domination',id:'T_EnSc_Dae_ForbiddenDomination',cost:78,weight:0.2},
 
     {name:'Package for Caius Cosades',id:'bk_a1_1_caiuspackage',cost:0,weight:0.2},
     {name:'Dwemer puzzle box',id:'misc_dwrv_ark_cube00',cost:10,weight:5},
