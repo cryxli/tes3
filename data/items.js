@@ -118,6 +118,12 @@ const items = [
     {name:'A Dance in Fire, Chapter 4',id:'BookSkill_Acrobatics3',cost:150,weight:3},
     {name:'The Black Arrow, Volume 1',id:'BookSkill_Acrobatics4',cost:400,weight:2},
     {name:'Mystery of Talara, Part 1',id:'BookSkill_Acrobatics5',cost:250,weight:3},
+    // long blade books
+    {name:'Words and Philosophy',id:'BookSkill_Long Blade1',cost:255,weight:3},
+    {name:'2920, Morning Star',id:'BookSkill_Long Blade2',cost:275,weight:3},
+    {name:'36 Lessons of Vivec, Sermon 17',id:'bookskill_long blade3',cost:200,weight:3},
+    {name:'36 Lessons of Vivec, Sermon 20',id:'bookskill_long blade4',cost:200,weight:3},
+    {name:'36 Lessons of Vivec, Sermon 23',id:'bookskill_long blade5',cost:200,weight:3},
     // alteration books
     {name:'Breathing Water',id:'BookSkill_Alteration1',cost:400,weight:2},
     {name:'The Lunar Lorkhan',id:'BookSkill_Alteration5',cost:350,weight:4},
@@ -200,6 +206,8 @@ const items = [
 
     {name:'Package for Caius Cosades',id:'bk_a1_1_caiuspackage',cost:0,weight:0.2},
     {name:'Dwemer puzzle box',id:'misc_dwrv_ark_cube00',cost:10,weight:5},
+
+    {name:'Quality Restore Fatigue',id:'p_restore_fatigue_q',cost:80,weight:0.5},
 
     {name:'Greef',id:'potion_comberry_brandy_01',cost:30,weight:5},
     {name:'Mazte',id:'Potion_Local_Brew_01',cost:10,weight:5},
