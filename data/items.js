@@ -208,11 +208,15 @@ const items = [
     {name:'Dwemer puzzle box',id:'misc_dwrv_ark_cube00',cost:10,weight:5},
 
     {name:'Quality Restore Fatigue',id:'p_restore_fatigue_q',cost:80,weight:0.5},
+    {name:'Golden Egg',id:'misc_uniq_egg_of_gold',cost:150,weight:30},
+    {name:'Juicedaw Feather Ring',id:'juicedaw ring',cost:213,weight:0.1},
+    {name:"Sottilde's Code Book",id:'bk_sottildescodebook',cost:0,weight:2},
 
     {name:'Greef',id:'potion_comberry_brandy_01',cost:30,weight:5},
     {name:'Mazte',id:'Potion_Local_Brew_01',cost:10,weight:5},
     {name:'Shein',id:'potion_comberry_wine_01',cost:10,weight:3},
     {name:'Sujamma',id:'potion_local_liquor_01',cost:30,weight:3},
+    {name:'Cyrodiilic Brandy',id:'potion_cyro_brandy_01',cost:100,weight:1},
 
     {name:'Ornada Egg',id:'T_IngFood_EggOrnada_01',cost:5,weight:0.25},
     {name:'Hamum Root',id:'T_IngFlor_Hamumroot_01',cost:2,weight:0.5},
