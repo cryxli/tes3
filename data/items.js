@@ -43,7 +43,7 @@ const items = [
     {name:'Luminous Russula',id:'ingred_russula_01',cost:1,weight:0.2,effects:['Water Breathing','Drain Fatigue','Poison']},
     {name:'Marshmerrow',id:'ingred_marshmerrow_01',cost:1,weight:0.1,effects:['Restore Health','Detect Enchantment','Drain Willpower','Drain Fatigue']},
     {name:'Moon Sugar',id:'ingred_moon_sugar_01',cost:50,weight:0.1,effects:['Fortify Speed','Dispel','Drain Endurance','Drain Luck']},
-    {name:'Muck',id:'ingred_muck_01',cost:1,weight:0.1,effects:['Drain Intelligence','Detect Key','Drain Personality','Cure Common Disease']},
+    {name:'Muck',id:'ingred_muck_01',cost:1,weight:0.1,effects:['Drain Intelligence','Detect Key','Drain Personality','Cure Common Disease'],url:true},
     {name:'Netch Leather',id:'ingred_netch_leather_01',cost:1,weight:1,effects:['Fortify Endurance','Fortify Intelligence','Drain Personality','Cure Paralyzation'],url:true},
     {name:'Pearl',id:'ingred_pearl_01',cost:100,weight:0.2,effects:['Drain Agility','Dispel','Water Breathing','Resist Common Disease']},
     {name:'Racer Plumes',id:'ingred_racer_plumes_01',cost:20,weight:0.1,effects:['Drain Willpower','Levitate']},
@@ -206,11 +206,15 @@ const items = [
 
     {name:'Package for Caius Cosades',id:'bk_a1_1_caiuspackage',cost:0,weight:0.2},
     {name:'Dwemer puzzle box',id:'misc_dwrv_ark_cube00',cost:10,weight:5},
+    {name:'Skull of Llevule Andrano',id:'misc_Skull_Llevule',cost:0,weight:0.5},
+    {name:'Fireblade',id:'fireblade',cost:600,weight:8},
+    {name:'Progress of Truth',id:'bk_progressoftruth',cost:150,weight:4},
 
     {name:'Quality Restore Fatigue',id:'p_restore_fatigue_q',cost:80,weight:0.5},
     {name:'Golden Egg',id:'misc_uniq_egg_of_gold',cost:150,weight:30},
     {name:'Juicedaw Feather Ring',id:'juicedaw ring',cost:213,weight:0.1},
     {name:"Sottilde's Code Book",id:'bk_sottildescodebook',cost:0,weight:2},
+    {name:"Alomon's Lucky Belt",id:'TR_m0_LuckyBelt',cost:150,weight:1},
 
     {name:'Greef',id:'potion_comberry_brandy_01',cost:30,weight:5},
     {name:'Mazte',id:'Potion_Local_Brew_01',cost:10,weight:5},
